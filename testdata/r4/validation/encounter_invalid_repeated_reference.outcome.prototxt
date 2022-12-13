@@ -1,0 +1,17 @@
+issue {
+  severity {
+    value: ERROR
+  }
+  code {
+    value: VALUE
+  }
+  diagnostics {
+    value: "invalid-reference-disallowed-type-Patient"
+  }
+  expression {
+    value: "Encounter.account[1]"
+  }
+}
+subject {
+    encounter_id {value: "123"}
+}

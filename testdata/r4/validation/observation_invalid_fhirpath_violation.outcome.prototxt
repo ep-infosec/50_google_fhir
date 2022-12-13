@@ -1,0 +1,17 @@
+issue {
+  severity {
+    value: ERROR
+  }
+  code {
+    value: VALUE
+  }
+  diagnostics {
+    value: "low.exists() or high.exists() or text.exists()"
+  }
+  expression {
+    value: "Observation.referenceRange[0]"
+  }
+}
+subject {
+    observation_id {value: "123"}
+}
